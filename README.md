@@ -3,6 +3,8 @@
 Combines insurance loss-run PDFs from different carriers into one claims
 table, and flags the problems a broker would otherwise find by eye.
 
+https://github.com/user-attachments/assets/f3dec87a-a35b-4577-adbe-c59927ab5be2
+
 ```
 uv sync
 uv run lossrun process samples/*.pdf --out report.xlsx --json report.json \
